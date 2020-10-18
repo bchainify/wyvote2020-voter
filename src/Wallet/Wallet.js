@@ -2,7 +2,7 @@ import React from "react";
 import * as libsimba from "@simbachain/libsimba-js";
 
 class Wallet extends React.Component {
-  constructor(address) {
+  constructor() {
     super();
     this.state = {
       address: "loading...",
@@ -104,13 +104,14 @@ class Wallet extends React.Component {
         "Didn't add funds? PoA network. " + JSON.stringify(result);
     } else if (result.faucet_url) {
       document.getElementById("funds").innerHTML =
-        "Didn't add funds? External faucet: <br/> To top up, you need to ask the user to visit the url in: ";
+        "Didn't add funds? Use External faucet. <br/> To top up, you need to ask the user to visit the url in: ";
       document.getElementById("faucet").href = result.faucet_url;
       document.getElementById("faucet").style.display = "block";
     } else {
       document.getElementById("funds").innerHTML =
-        "Funded - May take up to a minute for the transaction to process: " +
-        JSON.stringify(result);
+        "Didn't add funds? Use External faucet. <br/> To top up, you need to ask the user to visit the url in:";
+      document.getElementById("faucet").href = result.faucet_url;
+      document.getElementById("faucet").style.display = "block";
     }
     document.getElementById("reload-ready-button").style.display = "block";
   }
@@ -277,23 +278,23 @@ class Wallet extends React.Component {
           <form>
             <h2>Vote here:</h2>
             <div className="candidate-radio">
-              <input type="radio" id="Candidate1" name="vote" value="1" />
+              <input type="radio" className="Candidate" id="Candidate1" name="vote" value="1" />
               Republican - Trump & Pence
             </div>
             <div>
-              <input type="radio" id="Candidate2" name="vote" value="2" />
+              <input type="radio" className="Candidate" id="Candidate2" name="vote" value="2" />
               Democratic - Biden & Harris
             </div>
             <div>
-              <input type="radio" id="Candidate1" name="vote" value="3" />
+              <input type="radio" className="Candidate" id="Candidate1" name="vote" value="3" />
               Libertarian - Jorgensen & Cohen
             </div>
             <div>
-              <input type="radio" id="Candidate1" name="vote" value="4" />
+              <input type="radio" className="Candidate" id="Candidate1" name="vote" value="4" />
               Independent - Pierce & Ballard
             </div>
             <div>
-              <input type="radio" id="Candidate1" name="vote" value="5" />
+              <input type="radio" className="Candidate" id="Candidate1" name="vote" value="5" />
               Write-In
             </div>
           </form>
