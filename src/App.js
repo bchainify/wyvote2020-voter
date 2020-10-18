@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <img className="logo" src="abc" alt="logo"/>
+        <img className="logo" src="https://github.com/bchainify/wyvote2020-voter/blob/main/src/assets/favicon.png?raw=true" alt="logo"/>
       </div>
       <Wallet />
 
