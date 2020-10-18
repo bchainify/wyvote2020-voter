@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Wallet from "./Wallet/Wallet";
-import logo from "./../assets/logo.PNG";
+import logo from "./assets/logo.PNG";
 
 export default function App() {
   return (
