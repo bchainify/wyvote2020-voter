@@ -1,4 +1,4 @@
-![](images/Voterapp.png)
+![](images/VoterApp.png)
 # WYVote2020 Voter Application
 
 ### Instructions to use
