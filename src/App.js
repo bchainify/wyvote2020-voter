@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <img className="logo" src="https://uploads.codesandbox.io/uploads/user/90c8d0d8-b495-4f1e-9f89-fe6e04efc17c/cU2P-logo.PNG" alt="logo"/>
+        <img className="logo" src="abc" alt="logo"/>
       </div>
       <Wallet />
 

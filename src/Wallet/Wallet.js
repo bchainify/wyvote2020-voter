@@ -241,7 +241,7 @@ class Wallet extends React.Component {
               id="connect-button"
               onClick={this.ConnectSimba}
             >
-              Connect to SimbaChain
+              Go Ahead
             </button>
             <button
               className="input-button submit-button input-field"
