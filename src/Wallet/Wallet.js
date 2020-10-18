@@ -165,7 +165,7 @@ class Wallet extends React.Component {
             //txn.status will hold the status
           console.log(cancel);
             document.getElementById("vote-status").innerHTML =
-              "Status:" + txn.status;
+              "Vote Confirmed. <br/> Status:" +  txn.status;
             if (txn.status === "DEPLOYED") {
               document.getElementById("vote-hash").innerHTML =
                 "Hash:" + txn.transaction_hash;
