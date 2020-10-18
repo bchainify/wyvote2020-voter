@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: whitesmoke;
+}
+#vote-div {
+  display: none;
+}
+#connect-simba {
+  display: none;
+}
+.input-field {
+  margin: 10px;
+}
+.input-button {
+  padding: 10px;
+  border-radius: 20px;
+}
+.submit-button {
+  background-color: rgb(0, 0, 199);
+  color: white;
+  font-size: 12.5px;
+}
+.info {
+  margin: 50px;
+}
+h1 {
+  padding-bottom: 20px;
+}
+.logo {
+  height: 200px;
+  width: auto;
+}
+
+.header {
+  background-color: white;
+}
+
+#wallet-address {
+  color: red;
+}
+#progress {
+  color: red;
+}
+.header {
+  background-color: white;
+  border-style: solid;
+}
+.footer {
+  background-color: white;
+  border-style: solid;
+}
