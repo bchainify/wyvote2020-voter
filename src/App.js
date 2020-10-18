@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="header">
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="logo"/>
       </div>
       <Wallet />
 
