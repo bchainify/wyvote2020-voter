@@ -162,6 +162,7 @@ class Wallet extends React.Component {
           .then((txn) => {
             //txn will hold the txn details
             //txn.status will hold the status
+          console.log(cancel);
             document.getElementById("vote-status").innerHTML =
               "Status:" + txn.status;
             if (txn.status === "DEPLOYED") {
@@ -259,7 +260,7 @@ class Wallet extends React.Component {
           <div>
             <p id="balance"></p>
             <p id="funds"></p>
-            <a id="faucet" href="" target="_blank">
+            <a id="faucet" href="www.google.com" target="_blank">
               Faucet
             </a>
           </div>
