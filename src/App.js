@@ -11,6 +11,21 @@ export default function App() {
       <Wallet />
 
       <div className="footer">
+        <a href="https://bchainify.github.io/wyvote2020-voter/">
+          <h3 href="https://bchainify.github.io/wyvote2020-voter/">
+            Instructions to use
+          </h3>
+        </a>
+        <br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/5kew0esOKdA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br />
         <p>
           <h1>WYVote 2020</h1>
           Contact: help@bchainify.com <br /> Phone: (+1)0000 000000
