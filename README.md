@@ -1,4 +1,4 @@
-<img src="https://github.com/bchainify/wyvote2020-voter/blob/main/images/VoterApp.png" alt="alt text"><br/>
+![](images/Voterapp.png)
 # WYVote2020 Voter Application
 
 ### Instructions to use
