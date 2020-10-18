@@ -63,7 +63,7 @@ class Wallet extends React.Component {
 
     await this.state.wallet.generateWalletFromMnemonic(
       document.getElementById("address-unlock").value,
-      document.getElementById("passkey-unlock").value,
+      "VoterWallet",
       (progress) => {
         if (Math.floor(progress * 10) > lastProgress) {
           lastProgress = progress * 10;
@@ -198,14 +198,7 @@ class Wallet extends React.Component {
                 placeholder="Mnemonic"
               />
             </div>
-            <div className="input-field">
-              <input
-                className="input-button"
-                type="password"
-                id="passkey-unlock"
-                placeholder="Password"
-              />
-            </div>
+            
             <button
               className=" submit-button input-field input-button"
               id="unlock-button"
