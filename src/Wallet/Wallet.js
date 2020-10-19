@@ -109,7 +109,6 @@ class Wallet extends React.Component {
     } else {
       document.getElementById("funds").innerHTML =
         "Didn't add funds? Use External faucet. <br/> To top up, you need to ask the user to visit the url in:";
-      document.getElementById("faucet").href = result.faucet_url;
       document.getElementById("faucet").style.display = "block";
     }
     document.getElementById("reload-ready-button").style.display = "block";
@@ -253,8 +252,8 @@ class Wallet extends React.Component {
           <div>
             <p id="balance"></p>
             <p id="funds"></p>
-            <a id="faucet" href="https://faucet.rinkeby.io" target="_blank">
-              Faucet
+            <a id="faucet" href="https://faucet.rinkeby.io" target="_blank" rel="noopener noreferrer">
+              faucet.rinkeby.io
             </a>
           </div>
           <div id="reload-ready-button">
