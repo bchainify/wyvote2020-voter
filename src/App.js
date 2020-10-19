@@ -17,15 +17,17 @@ export default function App() {
           </h3>
         </a>
         <br />
+    <div class="center video-wrap">
+          <div class="center video-container">
         <iframe
         title="instructionsVideo"
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/5kew0esOKdA"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+    </div>
+    </div>
         <br />
         <p>
           <h1>WYVote 2020</h1>
