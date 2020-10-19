@@ -11,21 +11,15 @@ export default function App() {
       <Wallet />
 
       <div className="footer">
-        <a href="https://bchainify.github.io/wyvote2020-voter/">
-          <h3 href="https://bchainify.github.io/wyvote2020-voter/">
+        <a href="https://bchainify.github.io/wyvote2020-voter/" target="_blank" rel="noopener noreferrer">
+          <h3>
             Instructions to use
           </h3>
         </a>
         <br />
     <div class="center video-wrap">
           <div class="center video-container">
-        <iframe
-        title="instructionsVideo"
-          src="https://www.youtube.com/embed/5kew0esOKdA"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe title="instructionVideo" src="https://www.youtube.com/embed/7DbUMnmIFOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
         <br />
